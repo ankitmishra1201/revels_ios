@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13A8BBBB27F4DCB30085020D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8BBBA27F4DCB30085020D /* AppDelegate.swift */; };
+		13A8BBBD27F4DCB30085020D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8BBBC27F4DCB30085020D /* SceneDelegate.swift */; };
+		13A8BBBF27F4DCB30085020D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8BBBE27F4DCB30085020D /* ViewController.swift */; };
+		13A8BBC227F4DCB30085020D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A8BBC027F4DCB30085020D /* Main.storyboard */; };
+		13A8BBC427F4DCB40085020D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A8BBC327F4DCB40085020D /* Assets.xcassets */; };
+		13A8BBC727F4DCB40085020D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A8BBC527F4DCB40085020D /* LaunchScreen.storyboard */; };
+		13A8BBD427F4DF7C0085020D /* CollectionViewPagingLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 13A8BBD327F4DF7C0085020D /* CollectionViewPagingLayout */; };
+		13A8BBE327F4E1890085020D /* FactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8BBDF27F4E1890085020D /* FactListViewModel.swift */; };
+		13A8BBE427F4E1890085020D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8BBE027F4E1890085020D /* ContentView.swift */; };
+		13A8BBE527F4E1890085020D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8BBE127F4E1890085020D /* DetailView.swift */; };
+		13A8BBE627F4E1890085020D /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8BBE227F4E1890085020D /* Fact.swift */; };
+		66500A9FA87C401FE6D1CE7F /* Pods_revels_ios2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F1B3E6F78906CD6EE12364 /* Pods_revels_ios2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13A8BBB727F4DCB30085020D /* revels_ios2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = revels_ios2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A8BBBA27F4DCB30085020D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13A8BBBC27F4DCB30085020D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13A8BBBE27F4DCB30085020D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13A8BBC127F4DCB30085020D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13A8BBC327F4DCB40085020D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13A8BBC627F4DCB40085020D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13A8BBC827F4DCB40085020D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A8BBDF27F4E1890085020D /* FactListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FactListViewModel.swift; path = "../../../../.Trash/Developer Page/FactListViewModel.swift"; sourceTree = "<group>"; };
+		13A8BBE027F4E1890085020D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../../.Trash/Developer Page/ContentView.swift"; sourceTree = "<group>"; };
+		13A8BBE127F4E1890085020D /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailView.swift; path = "../../../../.Trash/Developer Page/DetailView.swift"; sourceTree = "<group>"; };
+		13A8BBE227F4E1890085020D /* Fact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fact.swift; path = "../../../../.Trash/Developer Page/Fact.swift"; sourceTree = "<group>"; };
+		B89E12C983EACA08D9320245 /* Pods-revels_ios2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revels_ios2.release.xcconfig"; path = "Target Support Files/Pods-revels_ios2/Pods-revels_ios2.release.xcconfig"; sourceTree = "<group>"; };
+		D343D5D0B4983603BE938ADD /* Pods-revels_ios2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revels_ios2.debug.xcconfig"; path = "Target Support Files/Pods-revels_ios2/Pods-revels_ios2.debug.xcconfig"; sourceTree = "<group>"; };
+		F5F1B3E6F78906CD6EE12364 /* Pods_revels_ios2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_revels_ios2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13A8BBB427F4DCB30085020D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A8BBD427F4DF7C0085020D /* CollectionViewPagingLayout in Frameworks */,
+				66500A9FA87C401FE6D1CE7F /* Pods_revels_ios2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A8BBAE27F4DCB30085020D = {
+			isa = PBXGroup;
+			children = (
+				13A8BBB927F4DCB30085020D /* revels_ios2 */,
+				13A8BBB827F4DCB30085020D /* Products */,
+				B81737698E786B5292B82913 /* Pods */,
+				374A3BF150B40D49C0976B43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13A8BBB827F4DCB30085020D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13A8BBB727F4DCB30085020D /* revels_ios2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13A8BBB927F4DCB30085020D /* revels_ios2 */ = {
+			isa = PBXGroup;
+			children = (
+				13A8BBBA27F4DCB30085020D /* AppDelegate.swift */,
+				13A8BBBC27F4DCB30085020D /* SceneDelegate.swift */,
+				13A8BBBE27F4DCB30085020D /* ViewController.swift */,
+				13A8BBE027F4E1890085020D /* ContentView.swift */,
+				13A8BBE127F4E1890085020D /* DetailView.swift */,
+				13A8BBE227F4E1890085020D /* Fact.swift */,
+				13A8BBDF27F4E1890085020D /* FactListViewModel.swift */,
+				13A8BBC027F4DCB30085020D /* Main.storyboard */,
+				13A8BBC327F4DCB40085020D /* Assets.xcassets */,
+				13A8BBC527F4DCB40085020D /* LaunchScreen.storyboard */,
+				13A8BBC827F4DCB40085020D /* Info.plist */,
+			);
+			path = revels_ios2;
+			sourceTree = "<group>";
+		};
+		374A3BF150B40D49C0976B43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5F1B3E6F78906CD6EE12364 /* Pods_revels_ios2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B81737698E786B5292B82913 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D343D5D0B4983603BE938ADD /* Pods-revels_ios2.debug.xcconfig */,
+				B89E12C983EACA08D9320245 /* Pods-revels_ios2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13A8BBB627F4DCB30085020D /* revels_ios2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A8BBCB27F4DCB40085020D /* Build configuration list for PBXNativeTarget "revels_ios2" */;
+			buildPhases = (
+				133676BDF757CFC4453D3CD7 /* [CP] Check Pods Manifest.lock */,
+				13A8BBB327F4DCB30085020D /* Sources */,
+				13A8BBB427F4DCB30085020D /* Frameworks */,
+				13A8BBB527F4DCB30085020D /* Resources */,
+				EE2A149E2B337A68525631C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = revels_ios2;
+			packageProductDependencies = (
+				13A8BBD327F4DF7C0085020D /* CollectionViewPagingLayout */,
+			);
+			productName = revels_ios2;
+			productReference = 13A8BBB727F4DCB30085020D /* revels_ios2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13A8BBAF27F4DCB30085020D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					13A8BBB627F4DCB30085020D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 13A8BBB227F4DCB30085020D /* Build configuration list for PBXProject "revels_ios2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13A8BBAE27F4DCB30085020D;
+			packageReferences = (
+				13A8BBD227F4DF7C0085020D /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */,
+			);
+			productRefGroup = 13A8BBB827F4DCB30085020D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A8BBB627F4DCB30085020D /* revels_ios2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13A8BBB527F4DCB30085020D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A8BBC727F4DCB40085020D /* LaunchScreen.storyboard in Resources */,
+				13A8BBC427F4DCB40085020D /* Assets.xcassets in Resources */,
+				13A8BBC227F4DCB30085020D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		133676BDF757CFC4453D3CD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-revels_ios2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2A149E2B337A68525631C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-revels_ios2/Pods-revels_ios2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-revels_ios2/Pods-revels_ios2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-revels_ios2/Pods-revels_ios2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13A8BBB327F4DCB30085020D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A8BBE327F4E1890085020D /* FactListViewModel.swift in Sources */,
+				13A8BBE527F4E1890085020D /* DetailView.swift in Sources */,
+				13A8BBE427F4E1890085020D /* ContentView.swift in Sources */,
+				13A8BBBF27F4DCB30085020D /* ViewController.swift in Sources */,
+				13A8BBE627F4E1890085020D /* Fact.swift in Sources */,
+				13A8BBBB27F4DCB30085020D /* AppDelegate.swift in Sources */,
+				13A8BBBD27F4DCB30085020D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13A8BBC027F4DCB30085020D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A8BBC127F4DCB30085020D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13A8BBC527F4DCB40085020D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A8BBC627F4DCB40085020D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13A8BBC927F4DCB40085020D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13A8BBCA27F4DCB40085020D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13A8BBCC27F4DCB40085020D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D343D5D0B4983603BE938ADD /* Pods-revels_ios2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = revels_ios2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.revels.revels-ios2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13A8BBCD27F4DCB40085020D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B89E12C983EACA08D9320245 /* Pods-revels_ios2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = revels_ios2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.revels.revels-ios2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A8BBB227F4DCB30085020D /* Build configuration list for PBXProject "revels_ios2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A8BBC927F4DCB40085020D /* Debug */,
+				13A8BBCA27F4DCB40085020D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A8BBCB27F4DCB40085020D /* Build configuration list for PBXNativeTarget "revels_ios2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A8BBCC27F4DCB40085020D /* Debug */,
+				13A8BBCD27F4DCB40085020D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		13A8BBD227F4DF7C0085020D /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amirdew/CollectionViewPagingLayout";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		13A8BBD327F4DF7C0085020D /* CollectionViewPagingLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13A8BBD227F4DF7C0085020D /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */;
+			productName = CollectionViewPagingLayout;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 13A8BBAF27F4DCB30085020D /* Project object */;
+}
